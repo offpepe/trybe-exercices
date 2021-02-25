@@ -100,3 +100,5 @@ for(let i=1;i<numbers.length;i++){
     }
 }
 console.log(numbers);
+
+console.log('hello world');
