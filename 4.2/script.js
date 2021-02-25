@@ -68,13 +68,15 @@ for(let i=0;i<to25.length;i++){
     console.log(to25[i]/2)
 }
     // exercicios bonus
-
+let numbers=[5,9,3,19,70,8,100,2,35,27]
 let numbersMultiplicatedByTheNext=[]
-for(let i=1;i<=numbers.length;i++){
-    for(let o=0;o<i;o++){
-    var resultado=numbers[o]*numbers[i];
+for(let i=0;i<=numbers.length;i++){
+    if(i<numbers.length-1){
+    numbersMultiplicatedByTheNext.push(numbers[i]*numbers[i+1])
     }
-    numbersMultiplicatedByTheNext.push(resultado);
+    else{
+        numbersMultiplicatedByTheNext.push(numbers[i]*2)
+    }
 }
 console.log(numbersMultiplicatedByTheNext);
 
