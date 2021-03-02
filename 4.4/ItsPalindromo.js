@@ -24,3 +24,23 @@ function itsPolindromo(x){
 }
 console.log(itsPolindromo("arara"))
 console.log(itsPolindromo("desenvolvimento"))
+
+let numbersGeted=[];
+for(let index=0;index<=10;index++){
+    numbersGeted.push(Math.ceil(Math.random()*15));
+}
+console.log(numbersGeted)
+function BiggestIndex(){
+    let biggest=0;
+    for (let index=1;index<numbersGeted.length;index++){
+        for(let ondex=0;ondex<index;ondex++){
+            if (numbersGeted[index]>numbersGeted[ondex]){
+                biggest=index;
+            }else{
+                biggest=ondex;
+            }
+        }
+    }
+    return biggest +"\n"+numbersGeted[biggest];
+}
+console.log(BiggestIndex())
