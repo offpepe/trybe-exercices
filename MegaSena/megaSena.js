@@ -8,8 +8,8 @@ numerosEscolhidos = [];
 numerosSortidos=[];
 function MegaSena(){
     for(let i=0;i<=15;i++){
-        numerosSortidos.push(Math.ceil(Math.random()*60));
-        numerosEscolhidos.push(Math.ceil(Math.random()*60));
+        numerosSortidos.push(Math.ceil(Math.random()*100));
+        numerosEscolhidos.push(Math.ceil(Math.random()*6));
     }
     for(let i=0;i<=numerosSortidos.length;i++){
         
@@ -18,9 +18,13 @@ function MegaSena(){
             
         }
     }
-    return "Numeros acertado: "+(numerosAcertados.length-1)+"\n Numeros Escolhidos: "+numerosEscolhidos+"\n Numeros Sortidos: "+numerosSortidos
+    return "Numeros acertado: "+(numerosAcertados.length-1)+"\n Numeros Escolhidos: "+numerosEscolhidos+"\n Numeros Sortidos: "+numerosSortidos + "\n"
 }
 codeCouter++;
 console.log(MegaSena());
 console.log("\n"+"\n"+"\n"+codeCouter+" bilhetes checados"+"\n"+"\n");
 }
+let gasto = codeCouter*4.5;
+console.log(gasto)
+console.log("seu lucro foi de "+ 7500000 - gasto)
+
