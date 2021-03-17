@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    min-width: 100%;
+    background-color: black;
+    padding: 20px 20px;
+}
+
+.titleHeader{
+    text-align: center;
+    color: white;
+}
+
+#darkmode{
+    min-width: 100%;
+    margin-left:90%;
+}
+
+#darkmode img{
+    filter:invert(100%);
+    width: 30px;
+}
+
+#darkmode button{
+    background:none;
+    border: 0px solid transparent;
+    text-shadow: none;
+}

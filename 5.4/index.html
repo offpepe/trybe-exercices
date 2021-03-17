@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1 class="titleHeader">Lorem Ipsum</h1>
+        <h2 class="titleHeader">Leitor de textos</h2>
+      </div>
+      <div id="darkmode">
+        <button id="darkModeButtom">
+          <img
+            src="src/contrast-circle-512.webp"
+            alt="Imagem para Alterar para modo noturno"
+            id="darkModeImg"
+          />
+        </button>
+      </div>
+    </header>
+    <aside>
+        <button class="textColors" id="blue"></button>
+        <button class="textColors" id="red"></button>
+        <button class="textColors" id="green"></button>
+        <button class="textColors" id="pink"></button>
+        <button class="textColors" id="default"></button>
+    </aside>
+    <main>
+      <article>
+        <h3>Lorem Ipsum</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+          lacinia nunc quis interdum aliquet. Etiam in suscipit elit, sed semper
+          ipsum. Sed condimentum dolor eu luctus pulvinar. Curabitur sodales
+          condimentum nulla, eget elementum ex tincidunt gravida. Duis tincidunt
+          commodo eros iaculis tincidunt. Sed eu egestas sem, vitae bibendum
+          nibh. Mauris a arcu finibus, bibendum neque vitae, convallis lorem.
+          Donec congue pellentesque condimentum. Donec iaculis volutpat lorem ut
+          consequat. Suspendisse potenti. Duis arcu metus, suscipit sed augue
+          eget, mollis tincidunt purus. Orci varius natoque penatibus et magnis
+          dis parturient montes, nascetur ridiculus mus. Aenean dictum convallis
+          mi, at scelerisque dolor euismod vel. In pellentesque elementum
+          sollicitudin. Nullam scelerisque tellus at mauris congue varius. Nam
+          ac ullamcorper arcu. Proin est nunc, congue quis bibendum quis,
+          pellentesque in arcu. Donec porttitor metus quis dolor iaculis porta.
+          Fusce eu consequat odio. Maecenas mi nibh, finibus eget augue eu,
+          faucibus imperdiet odio.
+        </p>
+      </article>
+      <div id="fontControllers">
+        <div id="lhController">  
+        <h3>Distanciamento de letra</h3>
+            <button class="lineHeight">Padrão</button>
+            <button class="lineHeight">+umpoco</button>
+            <button class="lineHeight">Bastante</button>
+        </div>
+        <div id="fontController">
+            <h3>Trocar de Fonte</h3>
+            <button class="changeFont">Padrão</button>
+            <button class="changeFont">Courier New</button>
+            <button class="changeFont">Monospace</button>
+        </div>
+    </div>
+    </main>
+    <script src="darkMode.js"></script>
+    <script src="fontControllers.js"></script>
+  </body>
+</html>
