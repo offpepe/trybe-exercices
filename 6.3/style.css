@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+  }
+  
+  body {
+    background-color: rgb(247, 247, 247);
+  }
+  
+  .header-container {
+    background-color: #5C687C;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .header-container :nth-child(1){
+      order: 2;
+  }
+  
+  .header-container :nth-child(1){
+    order: 1;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 60px;
+  flex-basis: content;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  margin: 0 70px;
+}
+
+.menu-container ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.menu-container li {
+  color: white;
+  font-weight: 500;
+  font-size: 1.3rem;
+  list-style: none;
+  margin: 0 30px;
+}
+
+li:nth-child(1){
+    order:2;
+}
+
+li:nth-child(2){
+    order:1;
+}
+li:nth-child(3){
+    order:3;
+}
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .movie-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .movie-container h2 {
+    margin: 40px 0;
+    text-align: center;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-clip:padding-box;
+  }
+  
+  .card-container div {
+    align-items: center;
+    background-color: #5C687C;
+    border: black solid 1px;
+    display: flex;
+    height: 150px;
+    width: 150px;
+    justify-content: center;
+    margin: 10px;
+    flex-basis: 15%;
+    
+  }
+  
+  .aside-container {
+    display: flex;
+    flex-direction: column;
+    width:35%;
+    margin: 40px 40px;
+  }
+  
+  .aside-container h3, h4 {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .aside-container p {
+    margin: 10px 0;
+    text-align: justify;
+  }
